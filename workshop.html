@@ -2,10 +2,11 @@
 layout: default
 ---
 
+
         <section id="content-region-3" class="padding-40 page-tree-bg">
             <div class="container">
                 <h3 class="page-tree-text">
-                    Workshops
+                    Who we are
                 </h3>
             </div>
         </section><!--page-tree end here-->
@@ -14,7 +15,7 @@ layout: default
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <h4 class="heading-mini">What We Offer</h4>
+                    <h4 class="heading-mini">About our company</h4>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet pulvinar risus, at posuere justo scelerisque sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet pulvinar risus, at posuere justo scelerisque sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
@@ -32,6 +33,7 @@ layout: default
 
                 </div>
                 <div class="col-lg-6">
+                     <div id="js-grid-slider-thumbnail" class="cbp ">
                         <div class="cbp-item">
                             <div class="cbp-caption">
                                 <div class="cbp-caption-defaultWrap">
@@ -39,17 +41,30 @@ layout: default
                                 </div>
                             </div>
                         </div>
+                        <div class="cbp-item">
+                            <div class="cbp-caption">
+                                <div class="cbp-caption-defaultWrap">
+                                    <img src="assets/img/work/work-2.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cbp-item">
+                            <div class="cbp-caption">
+                                <div class="cbp-caption-defaultWrap">
+                                    <img src="assets/img/work/work-3.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>         <!--about company row end-->
-           
             <div class="space-70"></div>
             <div class="row">
                 <div class="col-md-12">
                     <h4 class="heading-mini">Our team</h4>
                 </div>
 
-                <div class="col-lg-6 col-md-6 margin-btm-20">
+                <div class="col-lg-3 col-md-6 margin-btm-20">
                     <div class="person-section">
                         <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
                         <div class="person-desc">
@@ -66,7 +81,7 @@ layout: default
                         </div>
                     </div><!--person section end-->
                 </div><!--person col end-->
-                <div class="col-lg-6 col-md-6 margin-btm-20">
+                <div class="col-lg-3 col-md-6 margin-btm-20">
                     <div class="person-section">
                         <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
                         <div class="person-desc">
@@ -83,8 +98,41 @@ layout: default
                         </div>
                     </div><!--person section end-->
                 </div><!--person col end-->
+                <div class="col-lg-3 col-md-6 margin-btm-20">
+                    <div class="person-section">
+                        <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                        <div class="person-desc">
+                            <h3>John doe   <span>web designer</span></h3>
+
+                            <p>
+                                adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+                            </p>
+                            <ul class=" team list-inline social-btn">
+                                <li class="list-inline-item"><a href="#"><i class="ion-social-facebook" data-toggle="tooltip" data-placement="top" title="" data-original-title="Like On Facebook"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="ion-social-twitter" data-toggle="tooltip" data-placement="top" title="" data-original-title="Follow On twitter"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="ion-social-googleplus" data-toggle="tooltip" data-placement="top" title="" data-original-title="Follow On googleplus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div><!--person section end-->
+                </div><!--person col end-->
+                <div class="col-lg-3 col-md-6 margin-btm-20">
+                    <div class="person-section">
+                        <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                        <div class="person-desc">
+                            <h3>John doe   <span>web designer</span></h3>
+
+                            <p>
+                                adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+                            </p>
+                            <ul class=" team list-inline social-btn">
+                                <li class="list-inline-item"><a href="#"><i class="ion-social-facebook" data-toggle="tooltip" data-placement="top" title="" data-original-title="Like On Facebook"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="ion-social-twitter" data-toggle="tooltip" data-placement="top" title="" data-original-title="Follow On twitter"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="ion-social-googleplus" data-toggle="tooltip" data-placement="top" title="" data-original-title="Follow On googleplus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div><!--person section end-->
+                </div><!--person col end-->
             </div><!--our team row end-->
-                
             <div class="space-70"></div>
             <div class="row">
                 <div class="col-md-6 margin-btm-20">
@@ -200,5 +248,44 @@ layout: default
             </div><!--process row end-->
         </div><!--our process content end-->
         <div class="space-70"></div>
-        
- 
+       
+        <!-- jQuery plugins. -->
+        <script src="assets/js/plugins/plugins.js"></script>
+        <script src="assets/js/app.js"></script>
+        <script src="assets/cubeportfolio/js/jquery.cubeportfolio.min.js"></script> 
+        <script>
+            (function ($, window, document, undefined) {
+                'use strict';
+
+                // init cubeportfolio
+                $('#js-grid-slider-thumbnail').cubeportfolio({
+                    layoutMode: 'slider',
+                    drag: true,
+                    auto: false,
+                    autoTimeout: 5000,
+                    autoPauseOnHover: true,
+                    showNavigation: false,
+                    showPagination: false,
+                    rewindNav: true,
+                    scrollByPage: true,
+                    gridAdjustment: 'responsive',
+                    mediaQueries: [{
+                            width: 0,
+                            cols: 1,
+                        }],
+                    gapHorizontal: 0,
+                    gapVertical: 0,
+                    caption: '',
+                    displayType: 'fadeIn',
+                    displayTypeSpeed: 400,
+                    plugins: {
+                        slider: {
+                            pagination: '#js-pagination-slider',
+                            paginationClass: 'cbp-pagination-active',
+                        }
+                    },
+                });
+            })(jQuery, window, document);
+        </script>
+    </body>
+</html>
