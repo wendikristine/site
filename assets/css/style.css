@@ -28,7 +28,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #010101;
+  color: #C41E3A;
   -moz-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
   -webkit-transition: all 0.3s ease-in;
@@ -41,7 +41,7 @@ a {
     -webkit-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in; }
     a.hover-color:hover, .blog-post-title a:hover, .news-post-cat a:hover {
-      color: #C41E3A !important;
+      color: #891528 !important;
       -moz-transition: all 0.3s ease-in;
       -o-transition: all 0.3s ease-in;
       -webkit-transition: all 0.3s ease-in;
