@@ -3429,14 +3429,14 @@ fieldset[disabled] a.btn {
 
 .btn-danger {
   color: #fff;
-  background-color: #d9534f;
-  border-color: #d9534f;
+  background-color: #c12e2a;
+  border-color: #c12e2a;
 }
 
 .btn-danger:hover {
   color: #fff;
   background-color: #c9302c;
-  border-color: #c12e2a;
+  border-color: #c9302c;
 }
 
 .btn-danger.focus,
