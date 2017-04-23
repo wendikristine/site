@@ -3626,16 +3626,16 @@ fieldset[disabled] a.btn {
 }
 
 .btn-outline-danger {
-  color: #d9534f;
+  color: #C41E3A;
   background-image: none;
   background-color: transparent;
-  border-color: #d9534f;
+  border-color: #C41E3A;
 }
 
 .btn-outline-danger:hover {
   color: #fff;
-  background-color: #d9534f;
-  border-color: #d9534f;
+  background-color: #C41E3A;
+  border-color: #C41E3A;
 }
 
 .btn-outline-danger.focus,
